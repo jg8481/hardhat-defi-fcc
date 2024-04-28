@@ -12,7 +12,7 @@ if [ "$1" == "Stop-Local-Blockchain-Nodes-Clean-Environment-Clean-Environment" ]
   killall yarn > /dev/null 2>&1
   killall npm > /dev/null 2>&1
   killall node > /dev/null 2>&1
-  pkill yarnn > /dev/null 2>&1
+  pkill yarn > /dev/null 2>&1
   pkill npm > /dev/null 2>&1
   pkill node > /dev/null 2>&1
   ps aux | grep node
@@ -61,7 +61,7 @@ if [ "$1" == "Start-Hardhat-Node-And-Run-AAVE-Simulation" ]; then
   killall yarn > /dev/null 2>&1
   killall npm > /dev/null 2>&1
   killall node > /dev/null 2>&1
-  pkill yarnn > /dev/null 2>&1
+  pkill yarn > /dev/null 2>&1
   pkill npm > /dev/null 2>&1
   pkill node > /dev/null 2>&1
   sleep 4
@@ -87,7 +87,7 @@ if [ "$1" == "Start-Deployment-On-Real-Ethereum-Testnet" ]; then
   killall yarn > /dev/null 2>&1
   killall npm > /dev/null 2>&1
   killall node > /dev/null 2>&1
-  pkill yarnn > /dev/null 2>&1
+  pkill yarn > /dev/null 2>&1
   pkill npm > /dev/null 2>&1
   pkill node > /dev/null 2>&1
   sleep 4
